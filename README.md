@@ -31,6 +31,19 @@ It is recommanded to accept the default install location, and do not choose `/us
 
 8. *Thank you for installing Anaconda 3!* or *Thank you for installing Anaconda 2!*
 
+# Install on macOS
+## Graphical install
+Download the macOS graphical installer at https://www.anaconda.com/distribution/#macos for the version you want, and follow the similar install procedures as usual. We will focus on the command-line install here since it is much complicated.
+
+## Command-line install
+1. Download the command-line installer of your version at https://www.anaconda.com/distribution/#macos in the browser.
+
+2.  Follow the same direction as **Install on Linux**.
+
+# Install on Windows
+Download from https://www.anaconda.com/distribution/#windows, for which is graphical installer and is easy to go through with.
+
+
 # Verify the installation
 1. Show the installed packages and their versions:
 ```javascript
