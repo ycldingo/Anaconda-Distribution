@@ -21,9 +21,9 @@ bash ~/Downloads/Anaconda3-2019.10-Linux-x86_64.sh
 5. Scroll to the bottom of terms and enter `Yes` or click enter to agree. Otherwise, the installation can not start.
 
 6. The installer prompts you to 
-  1. click Enter to accept the default install location
-  2. CTRL-C to cancel the installation
-  3. specify an alternate installation directory
+    1. click Enter to accept the default install location
+    2. CTRL-C to cancel the installation
+    3. specify an alternate installation directory
 <br>
 It is recommanded to accept the default install location, and do not choose `/usr` for Anaconda installation.
 
