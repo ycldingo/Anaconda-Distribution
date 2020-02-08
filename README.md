@@ -41,7 +41,11 @@ Download the macOS graphical installer at https://www.anaconda.com/distribution/
 2.  Follow the same direction as **Install on Linux**.
 
 # Install on Windows
-Download from https://www.anaconda.com/distribution/#windows, for which is graphical installer and is easy to go through with.
+Download from https://www.anaconda.com/distribution/#windows, for which is graphical installer and is easy to go through with. There are some things needed to be notice:
+- Install Anaconda to a directory path that does not contain spaces or unicode characters.
+- Do not install as Administrator
+- It is suggested to use Anaconda software by opening Anaconda Navigator or the Anaconda Prompt from the Start Menu, so please check the box *Register Anaconda as my default Python 3.7*.
+
 
 
 # Verify the installation
