@@ -41,7 +41,7 @@ conda list
 ```javascript
 python
 ```
-    If you successfully install Anaconda, the version information it displays when it starts up will include “Anaconda”. Command `quit()` to exit the Python shell.
+   If you successfully install Anaconda, the version information it displays when it starts up will include “Anaconda”. Command `quit()` to exit the Python shell.
 
 3. Open Anaconda-Navigator:
 ```javascript
