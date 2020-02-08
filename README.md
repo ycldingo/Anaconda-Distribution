@@ -16,20 +16,20 @@ For Python 2, just run a similar command as
 bash ~/Downloads/Anaconda3-2019.10-Linux-x86_64.sh
 ```
 
-4. The installer prompts `In order to continue the installation process, please review the license agreement.`, click to view license terms.
+4. The installer prompts *In order to continue the installation process, please review the license agreement.*, click to view license terms.
 
 5. Scroll to the bottom of terms and enter `Yes` or click enter to agree. Otherwise, the installation can not start.
 
 6. The installer prompts you to 
-    1. click Enter to accept the default install location
-    2. CTRL-C to cancel the installation
+    1. click `Enter` to accept the default install location
+    2. `CTRL-C` to cancel the installation
     3. specify an alternate installation directory
 <br>
 It is recommanded to accept the default install location, and do not choose `/usr` for Anaconda installation.
 
-7. After few minutes of waiting, the installation is complete. You will see `Do you wish the installer to initialize Anaconda3 by running conda init`, type `Yes`. (recommand)
+7. After few minutes of waiting, the installation is complete. You will see *Do you wish the installer to initialize Anaconda3 by running conda init*, type `Yes`. (recommand)
 
-8. `Thank you for installing Anaconda 3!` or `Thank you for installing Anaconda 2!`
+8. *Thank you for installing Anaconda 3!* or *Thank you for installing Anaconda 2!*
 
 # Verify the installation
 1. Show the installed packages and their versions:
@@ -41,7 +41,7 @@ conda list
 ```javascript
 python
 ```
-If you successfully install Anaconda, the version information it displays when it starts up will include “Anaconda”. Command `quit()` to exit the Python shell.
+    If you successfully install Anaconda, the version information it displays when it starts up will include “Anaconda”. Command `quit()` to exit the Python shell.
 
 3. Open Anaconda-Navigator:
 ```javascript
