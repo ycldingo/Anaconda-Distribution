@@ -65,3 +65,34 @@ python
 anaconda-navigator
 ```
 
+# Update Anaconda
+Open a terminal and command
+```javascript
+conda update conda
+```
+## More information
+1. Grab the specific release:
+```javascript
+conda update anaconda=VersionNumber
+```
+
+2. Update all packages in the current environment:
+```javascript
+conda update --all
+```
+This command will only update the selected environmrnt. To update other environment, run:
+```javascript
+conda update -n MYENV --all
+```
+
+
+# Uninstall
+Here we introduce a full uninstallation using Anaconda-Clean.
+1. Open a terminal and type
+```javascript
+conda install anaconda-clean
+```
+2. With the same windows, run
+```javascript
+anaconda-clean
+```
