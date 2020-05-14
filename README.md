@@ -85,6 +85,11 @@ This command will only update the selected environmrnt. To update other environm
 conda update -n MYENV --all
 ```
 
+3. Upgrade packages:
+```
+pip install --upgrade PKG_NAME
+```
+
 
 # Uninstall
 Here we introduce a full uninstallation using Anaconda-Clean.
