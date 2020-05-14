@@ -85,10 +85,30 @@ This command will only update the selected environmrnt. To update other environm
 conda update -n MYENV --all
 ```
 
-3. Upgrade packages:
+# Packages
+Various packages are now available for you.
+1. Install package:
+```javascript
+pip install PKG_NAME
 ```
+2. Upgrade your packages:
+```javascript
 pip install --upgrade PKG_NAME
 ```
+Or, you can use the command ``` conda update --all``` as mentioned above.
+3. List the installed packages:
+```javascript
+pip list 
+```
+    1. Show the outdated packages only:
+    ```javascript
+    pip list --outdated
+    ```
+    2. Output the packages installed only in user-site:
+    ```javascript
+    pip list --user
+    ```
+    Note that this ```--user``` can bu added to the upgrade command, for which you installed on user-site before.
 
 
 # Uninstall
