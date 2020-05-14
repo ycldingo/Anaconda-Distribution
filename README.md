@@ -100,15 +100,15 @@ Or, you can use the command ``` conda update --all``` as mentioned above.
 ```javascript
 pip list 
 ```
-    1. Show the outdated packages only:
-    ```javascript
+1. Show the outdated packages only:
+```javascript
     pip list --outdated
-    ```
-    2. Output the packages installed only in user-site:
-    ```javascript
+```
+2. Output the packages installed only in user-site:
+```javascript
     pip list --user
-    ```
-    Note that this ```--user``` can bu added to the upgrade command, for which you installed on user-site before.
+```
+Note that this ```--user``` can bu added to the upgrade command, for which you installed on user-site before.
 
 
 # Uninstall
