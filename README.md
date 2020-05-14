@@ -96,15 +96,16 @@ pip install PKG_NAME
 pip install --upgrade PKG_NAME
 ```
 Or, you can use the command ``` conda update --all``` as mentioned above.
+
 3. List the installed packages:
 ```javascript
 pip list 
 ```
-1. Show the outdated packages only:
+- Show the outdated packages only:
 ```javascript
     pip list --outdated
 ```
-2. Output the packages installed only in user-site:
+- Output the packages installed only in user-site:
 ```javascript
     pip list --user
 ```
